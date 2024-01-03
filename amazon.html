@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fysiki kalankaari</title>
+
+  <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Load a font called Roboto from Google Fonts. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/pages/sample.css">
+
+  <!-- Here are the CSS files for this page. -->
+  <link rel="stylesheet" href="styles/shared/general.css">
+  <link rel="stylesheet" href="styles/shared/amazon-header.css">
+  <link rel="stylesheet" href="styles/pages/amazon.css">
+</head>
+
+<body>
+  <div class="amazon-header">
+    <div class="amazon-header-left-section">
+      <a href="amazon.html" class="header-link">
+        <img class="amazon-logo" src="data/sareeProducts/zf.png">
+        <img class="amazon-mobile-logo" src="images/amazon-mobile-logo-white.png">
+      </a>
+    </div>
+
+    <div class="amazon-header-middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+
+      <button class="search-button">
+        <img class="search-icon" src="images/icons/search-icon.png">
+      </button>
+    </div>
+
+    <div class="amazon-header-right-section">
+      <a class="orders-link header-link" href="orders.html">
+        <span class="returns-text">Returns</span>
+        <span class="orders-text">& Orders</span>
+      </a>
+
+      <a class="cart-link header-link" href="checkout.html">
+        <img class="cart-icon" src="images/icons/cart-icon.png">
+        <div class="cart-quantity js-cart-quantity">0</div>
+        <div class="cart-text">Cart</div>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="categeory-images-grid">
+
+
+    <a href="kalankaariCottonSaree.html">
+      <div class="categeory-main-container">
+        <div class="categeory-image-container">
+
+          <div class="container-image">
+            <img class="saree-image" src="data/sareeProducts/zi.png">
+          </div>
+          <div class="saree-style">
+            Kalamkari Cotton Sarees
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+    <a href="kalankaarisSilkSaree.html">
+      <div class="categeory-main-container">
+        <div class="categeory-image-container">
+
+          <div class="container-image">
+            <img class="saree-image" src="data/sareeProducts/zj.png">
+          </div>
+          <div class="saree-style">
+            Kalamkari Silk Sarees
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+    <a href="kalankaariPrintedSaree.html">
+      <div class="categeory-main-container">
+        <div class="categeory-image-container">
+
+          <div class="container-image">
+            <img class="saree-image" src="data/sareeProducts/zh.png">
+          </div>
+          <div class="saree-style">
+            Kalamkari Print Sarees
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+    <a href="kalankaariBorderSaree.html">
+      <div class="categeory-main-container">
+        <div class="categeory-image-container">
+
+          <div class="container-image">
+            <img class="saree-image" src="data/sareeProducts/zk.png">
+          </div>
+          <div class="saree-style">
+            Kalamkari Border Sarees
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+    <a href="handPrinted.html">
+      <div class="categeory-main-container">
+        <div class="categeory-image-container">
+
+          <div class="container-image">
+            <img class="saree-image" src="data/sareeProducts/zg.png">
+          </div>
+          <div class="saree-style">
+            Hand Painted Sarees
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+    <a href="kalankaariChiffon.html">
+      <div class="categeory-main-container">
+        <div class="categeory-image-container">
+
+          <div class="container-image">
+            <img class="saree-image" src="data/sareeProducts/zl.png">
+          </div>
+          <div class="text-position">
+            <div class="saree-style">
+              Kalamkari Chiffon Sares
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </a>
+
+
+
+  </div>
+
+
+
+  <div class="main">
+    <div class="products-grid js-products-grid">
+    </div>
+  </div>
+
+  <script type="module" src="scripts/amazon.js"></script>
+</body>
+
+</html>
